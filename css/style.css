@@ -5,6 +5,7 @@
 }
 body{
 	font-family: 'Montserrat', sans-serif;
+	color: #f3f3f3;
 }
 /*header start*/
 header{
@@ -107,6 +108,7 @@ header{
 .success h2{
 	font-size: 36px;
 	font-weight: 600;
+	color: #383838;
 	text-transform: uppercase;
 }
 .success hr{
@@ -138,3 +140,90 @@ header{
 	margin-right: 0;
 }
 /*Success end*/
+/*review start*/
+.review{
+	padding: 100px 0 40px;
+	background: url(../images/slider.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.review p{
+	margin: 20px 0;
+	font-size: 18px;
+	font-weight: 300;
+}
+.review h4{
+	font-size: 24px;
+}
+.review h4 span{
+	text-transform: uppercase;
+}
+.review img{
+	padding-top: 90px;
+}
+/*review end*/
+/*contact start*/
+.contact{
+	padding: 80px 0;
+}
+.contact h2{
+	margin: 20px 0;
+	font-size: 30px;
+	color: #666666;
+	text-align: center;
+	text-transform: uppercase;
+}
+.contact h3{
+	margin: 20px 0;
+	font-size: 24px;
+	color: #555555;
+	text-transform: uppercase;
+}
+.contact_info{
+	width: 40%;
+	float: left;
+}
+.contact_info input, .contact_info textarea{
+	margin: 15px 0;
+	padding: 15px;
+	display: block;
+	width: 80%;
+	background: #ededed;
+	outline: none;
+	border: none;
+}
+.contact_info button{
+	padding: 10px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #ecf0f1;
+	background: #f7564b;
+	outline: none;
+	border: none;
+}
+.address{
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+.address p{
+	font-size: 18px;
+	color: #888888;
+	text-transform: uppercase;
+}
+/*contact end*/
+/*footer start*/
+footer{
+	padding: 30px 0;
+	background: #333333;
+}
+.left{
+	width: 45%;
+	float: left;
+}
+.right{
+	width: 45%;
+	float: right;
+	text-align: right;
+}
