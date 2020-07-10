@@ -1,4 +1,4 @@
-/*commons*/
+/*global*/
 *{
 	margin: 0;
 	padding: 0;
@@ -19,10 +19,6 @@ header{
 	margin: 0 auto;
 	overflow: hidden;
 	/*border: 1px solid red;*/
-}
-
-.top_header {
-	overflow: hidden;
 }
 .logo {
 	width: 15%;
@@ -59,9 +55,9 @@ header{
 }
 .banner {
 	margin-top: 180px;
-	width: 44%;
+	width: 45%;
 }
-.banner h1,.banner h2{
+.banner h1{
 	font-size: 32px;
 	color: #f3f3f3;
 	text-transform: uppercase;
@@ -103,3 +99,42 @@ header{
 	background-color: #F44336;
 }
 /*header end*/
+/*Success start*/
+.success{
+	padding: 100px 0;
+	background: #fdfdfd;
+}
+.success h2{
+	font-size: 36px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.success hr{
+	width: 10%;
+    height: 5px;
+    background: #9a9a9a;
+    margin: 30px 0;
+}
+.single{
+	margin-right: 4%;
+	width: 30%;
+	float: left;
+}
+.single img{
+	width: 100%;
+}
+.single p{
+	margin: 20px 0;
+	font-size: 18px;
+	font-weight: 300;
+	color: #999797;
+}
+.single a{
+	font-weight: 600;
+	text-decoration: none;
+	color: #383838;
+}
+.single:last-child{
+	margin-right: 0;
+}
+/*Success end*/
