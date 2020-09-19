@@ -1,33 +1,114 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-.banner h1{
-	font-size: 20px;
+    /*navigation start*/
+    .menu ul li a {
+        padding: 8px 0 0 !important;
+    }
+    .scrollnav {
+        padding: 10px;
+    }
+    /*navigation end*/
+    /*banner start*/
+    .banner {
+        padding: 100px 0 60px;
+    }
+    .b_content h1 {
+        font-size: 20px;
+    }
+    .b_content button {
+        width: 100%;
+        margin-top: 16px;
+    }
+    /*banner end*/
+    /*about start*/
+    #about,
+    #review,
+    #contact {
+        padding: 50px 0;
+    }
+    .main_title {
+        font-size: 20px;
+    }
+    .ab_single p {
+        padding-right: 0;
+    }
+    /*about end*/
+    /*review start*/
+    .r_content h2 {
+        font-size: 18px;
+    }
+    /*review end*/
+    /*contact start*/
+    .c_single h3 {
+        font-size: 18px;
+    }
+    /*contact end*/
 }
-.about h2{
-	font-size: 23px;
-}
-.contact h2{
-	font-size: 23px;
-}	
-}
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-.banner h1{
-	font-size: 30px;
-}	
+    /*navigation start*/
+    .menu ul li a {
+        padding: 8px 0 0 !important;
+    }
+    /*navigation end*/
+    /*banner start*/
+    .banner {
+        padding: 150px 0 60px;
+    }
+    .b_content h1 {
+        font-size: 28px;
+    }
+    /*banner end*/
+    /*about start*/
+    #about,
+    #review,
+    #contact {
+        padding: 50px 0;
+    }
+    .title {
+        text-align: center;
+    }
+    .main_title {
+        font-size: 24px;
+    }
+    .title hr {
+        margin: 0 auto;
+    }
+    .ab_single p {
+        padding-right: 0;
+    }
+    /*about end*/
+    /*contact start*/
+    .r_content h2 {
+        font-size: 20px;
+    }
+    /*contact end*/
 }
-
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {	
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*navigation*/
+    .menu ul li a {
+        padding: 8px 0 0 !important;
+    }
+    /*about*/
+    .ab_single p {
+        padding-right: 19px;
+    }
+    /*review*/
+    .r_content h2 {
+        font-size: 22px;
+    }
 }
-
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
+    /*banner*/
+    .b_content p {
+        padding-right: 50px;
+    }
+    /*about*/
+    .ab_single p {
+        padding-right: 0;
+    }
 }
-
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
