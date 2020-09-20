@@ -18,6 +18,7 @@ header {
 }
 .menu ul li a {
     font-size: 18px;
+    font-weight: 600;
     color: #fff !important;
     text-transform: uppercase;
     padding: 0 20px !important;
